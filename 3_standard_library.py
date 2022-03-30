@@ -25,3 +25,7 @@ print(current_moment)
 later_moment   = current_moment + td(hours=3)
 print(later_moment)
 # %%
+import math
+
+math.exp(1)
+# %%
