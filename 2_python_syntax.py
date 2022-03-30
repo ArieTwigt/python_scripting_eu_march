@@ -53,3 +53,48 @@ print = "paper"
 #%%
 print("Hello world")
 # %%
+my_name = "Arie"
+# %%
+my_name.replace(old, new)
+
+
+#%%
+my_names = ['Arie', 'John']
+
+# %% normal concatenation
+"Hello" + " " + my_name
+
+# %% using format
+city = "Amsterdam"
+"Hello {}, how are things going in {}?".format(my_name, city)
+
+# %% f string
+f"Hello {my_name}, how are things going in {city}?"
+
+# %%
+age = 30
+"Hello" + age
+# %%
+
+#%%
+"Hello {}".format(age)
+
+# %% split method
+name = "Arie Twigt"
+name.split(" ")
+
+# %%
+name_tuple = ('Arie', 'John')
+name_list  = ['Arie', 'John']
+
+
+#%%
+name_list[0] = 'Mary'
+name_list.append('Eric')
+print(name_list)
+# %%
+name_tuple[0] = 'Mary'
+# %%
+my_list  = [] # list()
+my_tuple = () # tuple()
+my_dict  = {} # dict()

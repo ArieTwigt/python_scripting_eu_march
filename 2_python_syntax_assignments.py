@@ -56,7 +56,6 @@ combined_flower_list[id_tulip] = 'daisy'
 
 
 #%% c. List comprehension --> If all the tulips should be replaced
-combined_flower_list = ['daisy' if flower == 'tulip' else flower for flower in combined_flower_list]
-
+['daisy' if flower == 'tulip' else flower for flower in combined_flower_list]
 
 # %%
