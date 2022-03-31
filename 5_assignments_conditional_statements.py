@@ -32,6 +32,7 @@ vowels = ['a', 'e', 'o', 'u', 'i', 'y']
 
 #%% a. 
 
+
 if name[0].lower() in vowels:
     print(f"Your name {name} begins with a vowel")
     new_name = name.replace(name[0], "B")
@@ -47,7 +48,7 @@ else:
 import random
 import string
 
-name = "James"
+name = "aaran"
 
 vowels = ['a', 'e', 'o', 'u', 'i', 'y']
 letters_list = list(string.ascii_lowercase)
