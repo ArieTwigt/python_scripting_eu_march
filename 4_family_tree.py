@@ -19,7 +19,7 @@ family_dict['name'] = 'Jones'
 family_dict['members'] = []
 
 # %%
-family_dict['members'].append(person_1)
+family_dict['members'].apend(person_1)
 family_dict['members'].append(person_2)
 
 # %%
