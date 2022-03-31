@@ -29,3 +29,11 @@ import math
 
 math.exp(1)
 # %%
+import datetime
+# %%
+current_date = datetime.date.today()
+# %%
+current_date.strftime("%Y %A")
+# %%
+int("Arie")
+# %%
