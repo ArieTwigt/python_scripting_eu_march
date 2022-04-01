@@ -1,6 +1,9 @@
 ## Assignments
 
-#%% Assignment 1.await
+
+
+
+#%% Assignment 1.
 with open("output/my_second_story.txt", "w") as file:
     file.write("Once there was a Python programmer\n")
     file.write("He wanted to do Data Science\n")
@@ -16,7 +19,7 @@ with open("output/my_second_story.txt", "r") as file:
     story_content = file.readlines()
 
 # split the lines afterwards
-story_content_list = story_content.split("\n")
+story_content_list = [sentence.replace("\n", "")for sentence in story_content]
 
 #%% b. Better
 with open("output/my_second_story.txt", "r") as file:
