@@ -1,0 +1,4 @@
+{"location": "https://db.location.com", 
+"param_1": "bar", 
+"param_2": 50, 
+"param_3": [1, 2, 3, "alpha", "beta"]}
