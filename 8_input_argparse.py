@@ -17,9 +17,10 @@ args = parser.parse_args()
 diameter = args.diameter
 rounding = args.rounding
 
-# use the function 
-surface_circle = calc_circle(diameter, round_value=rounding)
-
-# print out the inserted argument
-print(f"The result is: {surface_circle}")
+if __name__ == '__main__':
+    # use the function 
+    surface_circle = calc_circle(diameter, round_value=rounding)
+    
+    # print out the inserted argument
+    print(f"The result is: {surface_circle}")
 
