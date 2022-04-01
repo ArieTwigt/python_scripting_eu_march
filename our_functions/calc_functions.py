@@ -22,3 +22,7 @@ def calc_circle(diameter: [int, float], multiplier= 1, round_value=1, return_rad
         return result_rounded, radius
     else: 
         return result_rounded
+
+
+def give_name_of_script():
+    print(f"2. The name of this script is {__name__}")

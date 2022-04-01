@@ -27,7 +27,7 @@ import math
 
 
 def calc_circle(diameter):
-    radius = diameter / 2
+    radius = diameter / 2 # assign the value of the radius to a 'local' variable
     result = math.pow(radius, 2) * math.pi
     return result
 
@@ -36,7 +36,7 @@ def calc_circle(diameter):
 calc_circle(10)
 
 # %% Add a doc string with a explanation of the function
-def calc_circle(diameter: [int, float], multiplier= 1, round_value=1, return_radius=False) -> float:
+def calc_circle(diameter: [int, float], multiplier: int = 1, round_value: int =1, return_radius: bool =False) -> float:
     '''
     This is a function that calculates the surface of a circle.
 
@@ -46,6 +46,8 @@ def calc_circle(diameter: [int, float], multiplier= 1, round_value=1, return_rad
     - round_value (int) - round the end result by the amount of decimals
     - return_radius (bool) - return the radius as well
 
+    returns:
+        - returns the surface of the circle (float)
     '''
 
 
@@ -58,6 +60,8 @@ def calc_circle(diameter: [int, float], multiplier= 1, round_value=1, return_rad
     else: 
         return result_rounded
 
+#%%
+x, y = calc_circle(10, return_radius=True)
 
 # %%
 circle_diameter, circle_radius = calc_circle(diameter=10, round_value=3, return_radius=True)
