@@ -36,7 +36,7 @@ def calc_circle(diameter):
 calc_circle(10)
 
 # %% Add a doc string with a explanation of the function
-def calc_circle(diameter: [int, float], multiplier: int = 1, round_value: int =1, return_radius: bool =False) -> float:
+def calc_circle(diameter: [int, float], multiplier: int = 1, round_value: int = 1, return_radius: bool =False) -> float:
     '''
     This is a function that calculates the surface of a circle.
 
@@ -61,7 +61,7 @@ def calc_circle(diameter: [int, float], multiplier: int = 1, round_value: int =1
         return result_rounded
 
 #%%
-x, y = calc_circle(10, return_radius=True)
+calc_circle(10, return_radius=True)
 
 # %%
 circle_diameter, circle_radius = calc_circle(diameter=10, round_value=3, return_radius=True)
